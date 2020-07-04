@@ -15,11 +15,12 @@ header {
     width: auto;
     text-align: center;
 }
-.m-main-menu.m-main-menu-area.scrollActive {
+/*.m-main-menu.m-main-menu-area.scrollActive {
     position: fixed;
     top: 0vh;
+    box-shadow: 0px 8px 8px -5px #dadada;
     z-index: 9999;
-}
+}*/
 .m-main-logo {
     width: 60%;
     position: absolute;
@@ -32,8 +33,8 @@ span.m-main-logo-title {
 }
 .m-main-menu {
     position: absolute;
-    background-color: rgba(255,255,255,0.9);
-    top: 15vh;
+    /*background-color: rgba(255,255,255,0.9);*/
+    top: 0;
     width: 100%;
     max-width: inherit;
     color: black;
@@ -47,7 +48,7 @@ div.m-main-menu.m-main-menu-selection {
     background-color: initial;
 }
 .m-main-menu.m-main-menu-area {
-    box-shadow: 0px 8px 8px -5px #dadada;
+    
     line-height: 55px;
     font-size: 20px;
 }
@@ -308,4 +309,30 @@ footer {
 
 .m-extended-selection.activeHeader {
     display: block !important;
+}
+.m-main-image {
+    height: -webkit-fill-available;
+    background: url('https://imgix.bustle.com/uploads/image/2020/3/26/cf51d18c-60d4-423a-964c-1e2b9d620e8c-0326_tzr_shopping.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.m-overlay {
+    background: black;
+    position: relative;
+    height: -webkit-fill-available;
+    opacity: 0.4;
+}
+
+body {
+    margin: 0;
+}
+.m-main-menu.m-main-menu-area {
+    background-image: url('http://70.lsal.cn/128/1173.png?07041644415058');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 62%;
+    height: 26%;
+    background-size: 35%;
 }
