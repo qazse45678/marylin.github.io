@@ -1,0 +1,311 @@
+@font-face {
+  font-family: Playfair Display;
+  src: local("Playfair Display"),
+    local("Playfair Display"),
+    url(PlayfairDisplay-VariableFont_wght.ttf);
+  font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/*header*/
+header {
+    height: 25vh;
+    width: auto;
+    text-align: center;
+}
+.m-main-menu.m-main-menu-area.scrollActive {
+    position: fixed;
+    top: 0vh;
+    z-index: 9999;
+}
+.m-main-logo {
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    border-bottom: solid 1px #bababa;
+}
+span.m-main-logo-title {
+    font-size: 40px;
+    line-height: 110px;
+}
+.m-main-menu {
+    position: absolute;
+    background-color: rgba(255,255,255,0.9);
+    top: 15vh;
+    width: 100%;
+    max-width: inherit;
+    color: black;
+}
+div.m-main-menu.m-main-menu-selection {
+    position: initial;
+    display: inline-block;
+    line-height: 55px;
+    font-size: 20px;
+    width: 15vw;
+    background-color: initial;
+}
+.m-main-menu.m-main-menu-area {
+    box-shadow: 0px 8px 8px -5px #dadada;
+    line-height: 55px;
+    font-size: 20px;
+}
+/*menu extention*/
+.m-extended-selection {
+    width: 26vw;
+    height: 29vh;
+    background: rgba(255,255,255,0.9);
+    position: absolute;
+    top: 7vh;
+    z-index: 9999;
+    border: solid 0.5px #dadada;
+    border-radius: 10px;
+    box-shadow: 4px 7px 8px -2px #bababa;
+    transition: all 0.5s;
+    display: none;
+}
+.m-extended-selection-1 {
+    left: 14vw;
+}
+.m-extended-selection-list {
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+.m-extended-selection-preview {
+    width: 60%;
+    height: inherit;
+    position: inherit;
+    top: 0;
+    right: 0;
+}
+
+.m-selection-list {
+    width: 80%;
+    position: relative;
+    height: 25%;
+    line-height: 3;
+    font-size: 17px;
+    overflow: hidden;
+    left: 10%;
+    text-decoration: none;
+    color: black;
+}
+img.m-extended-image {
+    width:;
+    height: 70%;
+    -moz-box-shadow: 0px 0px 5px #99FF99; /*Firefox 的 陰影*/
+    -webkit-box-shadow: 0px 0px 5px #99FF99; /*webkit 系列瀏覽器的陰影*/
+    box-shadow: 0px 0px 5px grey; /*IE9 或opera*/
+    -moz-transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    -o-transition:all 0.5s;
+    transition:all 0.5s;
+    top: 15%;
+    position: relative;
+    border-color: rgba(0,0,0, 0.1); /*邊框顏色*/
+}
+.m-extended-selection-2 {
+    left: 29vw;
+}
+.m-extended-selection.m-extended-selection-3 {
+    left: 44vw;
+}
+
+.m-extended-selection.m-extended-selection-4 {
+    left: 59vw;
+}
+
+/*banner*/
+.m-main-banner {
+    width: auto;
+    height: 60vh;
+    /*margin: 50px 0 0 0;*/
+}
+.m-main-banner.m-banner-image-wrapper {
+    position: relative;
+    width: 39.5vw;
+    left: 31%;
+    text-align: center;
+    overflow: hidden;
+    display: inline-flex;
+    height: inherit;
+}
+img.m-banner-image {
+    position: absolute;
+    height: inherit;
+    width: auto;
+    margin: 0 10px 0 10px;
+}
+
+/*fixed background*/
+.m-main-fix-background {
+    width: auto;
+    height: 80vh;
+    text-align: center;
+    margin: 80px 0 100px 0;
+    font-size: 20px;
+    color: grey;
+}
+.m-main-fix-background.m-fix-image {
+    position: relative;
+    width: 53vw;
+    left: 23%;
+    background: url("https://trello.com/1/cards/5e927b3d655895341dfad373/attachments/5e927e75b1e85d7d4d11b11a/previews/download?backingUrl=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F5e927b3c40f7ab0e2e4eabc1%2F5e927b3d655895341dfad373%2F5b538bc60a3c344d67ee34338c56bd36%2Fgiuseppe-mondi-754094-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*grid*/
+.m-main-grid {
+    width: auto;
+    height: fit-content;
+    background-color: white;
+}
+ul.m-main-grid.m-grid-area {
+    margin: 0 0 0 0;
+    width: 79vw;
+    background-color: white;
+    left: 10%;
+    position: relative;
+    max-height: inherit;
+    text-align: center;
+    padding: 0;
+}
+li.m-grid {
+    background-color: brown;
+    width: 23vw;
+    height: 45vh;
+    display: inline-grid;
+    margin: 10px;
+}
+img.m-grid-1-image {
+    position: absolute;
+    z-index: 0;
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+}
+
+.m-grid-overlay {
+    z-index: 999;
+    background-color: rgba(0,0,0,0.4);
+    width: inherit;
+    height: inherit;
+    color: rgba(255,255,255,0.7);
+    text-align: initial;
+    font-size: 15px;
+    line-height: 40rem;
+}
+
+.m-grid-overlay-1:hover {
+    background-color: rgba(0,0,0,0.8);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    color: white;
+}
+
+.m-grid-overlay-1 {
+    position: absolute;
+    color: transparent;
+    z-index: 999;
+    width: inherit;
+    height: inherit;
+    line-height: 13rem;
+    font-size: 20px;
+}
+span.m-grid-overlay-1.title {
+    position: initial;
+    line-height: 10rem;
+    font-size: 22px;
+    border-bottom: solid 0.5px;
+    padding-bottom: 6px;
+}
+.m-main-grid {
+    text-align: center;
+}
+span.m-main-grid.title {
+    margin: 80px 0 80px 0;
+    position: initial;
+    width: initial;
+    font-size: 20px;
+    line-height: 10rem;
+    color: grey;
+}
+
+/*footer*/
+footer {
+    width: auto;
+    height: 25vh;
+}
+.m-footer-title {
+    text-align: center;
+    line-height: 7;
+    color: #bababa;
+}
+
+/*edit*/
+.m-main-banner.m-banner-image-wrapper {
+    max-width: 600px;
+}
+    img.m-banner-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+        img.m-banner-image:first-child {
+            position: static;
+        }
+        img.m-banner-image.show {
+            opacity: 1;
+            visibility: visible !important;
+        }
+    .m-prev, .m-next {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        transition: .4s;
+        background-color: rgba(0,0,0,.12);
+        padding: 14px 12px;
+    }
+        .m-prev:hover, .m-next:hover {
+            background-color: rgba(0,0,0,.24);
+        }
+        .m-prev:after, .m-next:after {
+            display: block;
+            content: "";
+            width: 10px;
+            height: 10px;
+            border-top: 2px solid #fff;
+            border-right: 2px solid #fff;
+        }
+    .m-prev {
+        left: 10px;
+    }
+        .m-prev:after {
+            transform: rotate(-135deg);
+            margin-left: 4px;
+        }
+    .m-next {
+        right: 0;
+    }
+        .m-next:after {
+            transform: rotate(45deg);
+            margin-right: 4px;
+        }
+
+
+/*edit*/
+
+.m-extended-selection.activeHeader {
+    display: block !important;
+}
