@@ -336,3 +336,110 @@ body {
     height: 26%;
     background-size: 35%;
 }
+.m-main-bricks.m-brick {
+    height: 1200px;
+    margin: 100px 40px 100px 40px;
+}
+
+img.m-brick.m-brick-1-img {
+    width: 40%;
+    float: left;
+}
+img.m-brick.m-brick-2-img {
+    width: 60%;
+    float: right;
+}
+
+span.m-brick.m-brick-border-1 {
+    border: 3px solid #e3c6b8;
+    width: 41%;
+    height: 63%;
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    content: "";
+    top: 2vw;
+    left: 4vh;
+}
+
+.m-brick.m-brick-1.m-brick-detail {
+    position: relative;
+    width: 100%;
+}
+
+.m-brick.m-brick-1 {
+    position: absolute;
+    width: fit-content;
+    height: 100%;
+    z-index: 9999;
+}
+span.m-brick.m-brick-border-2 {
+    border: 3px solid #b8d5e3;
+    width: 56%;
+    height: 86%;
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    content: "";
+    top: -3vw;
+    left: 52vh;
+}
+
+.m-brick.m-brick-2.m-brick-detail {
+    position: relative;
+    width: 100%;
+}
+
+.m-brick.m-brick-2 {
+    position: absolute;
+    width: fit-content;
+    height: 100%;
+    right: 1vw;
+}
+span.m-brick:hover {
+    transform: translate3d(20px, 20px, 20px);
+    transition: 0.5s;
+}
+
+.m-brick.m-brick-1.m-brick-detail:hover {
+    transform: translate3d(-20px, -10px, 50px);
+    transition: 0.5s;
+}
+.m-brick.m-brick-caption {
+    position: relative;
+    bottom: 25vh;
+    font-family: garamond-premier-pro-display,serif;
+}
+.m-brick.m-brick-3 {
+    position: absolute;
+    width: fit-content;
+    height: 100%;
+    text-align: center;
+}
+
+img.m-brick.m-brick-3-img {
+    width: 50%;
+}
+
+.m-brick.m-brick-3.m-brick-detail {
+    POSITION: relative;
+    width: 100%;
+    top: 95vh;
+}
+
+span.m-brick.m-brick-border-3 {
+    border: 3px solid #DFDFDF;
+    width: 44%;
+    height: 83%;
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    content: "";
+    top: -3vw;
+    left: 36vh;
+}
+
+span.m-brick.m-brick-border-3:hover {
+    transition: 0.5s;
+    transform: translate(0px, 20px);
+}
